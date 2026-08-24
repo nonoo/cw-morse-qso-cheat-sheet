@@ -16,7 +16,7 @@ Sending at least 8 dits in a row or a few separate `E` letters indicates that yo
 
 Sending two `E` letters (dits) after a QSO is finished is a common way to say goodbye.
 
-## Characters used mostly in ragchew QSOs
+### Characters used mostly in ragchew QSOs
 
 | Character | Morse code     |
 |-----------|----------------|
@@ -190,6 +190,8 @@ Signal reports consist of 3 digits: **R**eadability (1–5), **S**ignal strength
 | **R** (Readability) | 1 to 5 | 1 = Unreadable, 3 = Readable with difficulty, 5 = Perfectly readable    |
 | **S** (Strength)    | 1 to 9 | 1 = Barely perceptible, 5 = Fairly good, 9 = Extremely strong           |
 | **T** (Tone)        | 1 to 9 | 1 = Very rough AC, 5 = Filtered rectified AC, 9 = Pure crystal DC note  |
+
+With modern transceivers, the Tone report is almost always `9` (pure DC note), so signal reports in CW typically end in `9` (e.g., `599`, `579`, `449`).
 
 ## Cut numbers
 
