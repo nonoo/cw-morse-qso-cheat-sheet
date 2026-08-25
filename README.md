@@ -31,7 +31,7 @@ Sending two `E` letters (dits) after a QSO is finished is a common way to say go
 | `CQ DX`   | Calling long-distance / intercontinental stations only | `CQ DX CQ DX DE HA2NON K` |
 | `CQ POTA` | Calling as a Parks on the Air activator                | `CQ POTA DE HA2NON K`     |
 | `CQ SOTA` | Calling as a Summits on the Air activator              | `CQ SOTA DE HA2NON K`     |
-| `CQ TEST` | Calling in a contest (short for *CONTEST*)             | `TEST DE HA2NON K`        |
+| `CQ TEST` | Calling in a contest (short for *CONTEST*)             | `CQ TEST DE HA2NON K`     |
 | `CQ FD`   | Calling during Field Day                               | `CQ FD DE HA2NON K`       |
 
 ## Things used at the beginning/end of messages
