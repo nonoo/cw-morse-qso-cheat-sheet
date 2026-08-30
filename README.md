@@ -47,12 +47,15 @@ Sending two `E` letters (dits) after a QSO is finished is a common way to say go
 
 The characters of prosigns need to be transmitted without any space between them.
 
-| Prosign  | Meaning                                                           | Where to use                                                              |
-|----------|-------------------------------------------------------------------|---------------------------------------------------------------------------|
-| `BK`     | Break                                                             | Send instead of the header and footer `TO DE FROM` part of a message      |
-| `BT` (=) | Separate message parts or a filler to indicate sender is thinking | Between RST, Name, and QTH sections, or while thinking about what to send |
-| `AS`     | Please wait, I'll be back soon                                    | When the sender needs to leave the QSO for a short time                   |
-| `AR` (+) | End of message / back to you                                      | `TO DE FROM AR KN` or before the message footer `AR TO DE FROM KN`        |
+| Prosign    | Meaning                                                           | Where to use                                                              |
+|------------|-------------------------------------------------------------------|---------------------------------------------------------------------------|
+| `<BK>`     | Break                                                             | Send instead of the header and footer `TO DE FROM` part of a message      |
+| `<BT>` (=) | Separate message parts or a filler to indicate sender is thinking | Between RST, Name, and QTH sections, or while thinking about what to send |
+| `<AS>`     | Please wait, I'll be back soon                                    | When the sender needs to leave the QSO for a short time                   |
+| `<AR>` (+) | End of message / back to you                                      | `TO DE FROM AR KN` or before the message footer `AR TO DE FROM KN`        |
+
+`BK` can also be used to break into an ongoing QSO. Break can be accepted with `GA` (go ahead).
+Note that if QSO participants are using `KN` at the end of each period then you might not want to break into the conversation with `BK`.
 
 ## Q codes
 
@@ -68,7 +71,7 @@ Useful codes to know:
 | `QRS`  | Slow down                  | Requesting the sender to reduce sending speed                                             |
 | `QRV`  | Ready to receive / operate | Asking or stating readiness (e.g., `QRV?` or `HR QRV`)                                    |
 | `QRT`  | Shutting down              | Ending operation, turning off the radio                                                   |
-| `QRX`  | Stand by / wait            | Asking the other station to wait (e.g., `QRX 5 MIN`)                                      |
+| `QRX`  | Stand by / wait            | Asking the other station to wait specified number of minutes (e.g., `QRX 5`)              |
 | `QRU`  | Have you anything for me?  | Stating nothing further to send (e.g., `QRU 73`) or asking if more info is needed         |
 | `QSY`  | Change frequency           | Changing frequency (e.g., `QSY DN 2` [2 kHz] or `QSY 7.030`)                              |
 | `QSX`  | Listening on frequency     | Used in split DX operation (e.g., `QSX 7.025` or `QSX UP 2`)                              |
@@ -115,13 +118,14 @@ Useful codes to know:
 | `GUD`         | Good                                                    |
 | `VY`          | Very                                                    |
 | `ES`          | And                                                     |
+| `TT`          | That                                                    |
 | `NW`          | Now (e.g., `NW QRZ?`, `NW 5NN`)                         |
 | `ABT`         | About (e.g., `PWR ABT 100W`, `WX ABT 20C`)              |
 | `C`           | Correct / yes                                           |
 | `B4`          | Before (e.g., `WKD B4`)                                 |
 | `NIL`         | Nothing / nothing heard                                 |
 | `GM`          | Good morning                                            |
-| `GA`          | Good afternoon                                          |
+| `GA`          | Good afternoon or go ahead (response to a `BK` breakin) |
 | `GE`          | Good evening                                            |
 | `GD`          | Good day                                                |
 | `GN`          | Good night                                              |
@@ -138,7 +142,7 @@ Useful codes to know:
 | `WKD` / `WRK` | Worked / working (e.g., `NICE TO WRK U`)                |
 | `OP`          | Operator                                                |
 | `NAME`        | Operator name                                           |
-| `OM`          | Old man (male operator)                                 |
+| `OM` / `OB`   | Old man / old boy (male operator)                       |
 | `YL`          | Young lady (female operator)                            |
 | `XYL`         | Wife                                                    |
 | `DR`          | Dear                                                    |
@@ -176,6 +180,7 @@ Useful codes to know:
 | `DIR`         | Direct QSL via mail                                     |
 | `UP`          | Listen up / higher frequency (split)                    |
 | `DN`          | Down / listen down frequency (split)                    |
+| `GG`          | Going                                                   |
 | `CL`          | Closing station / going off air                         |
 
 (*) If you missed something (e.g., the operator's name), do not send `R`.
