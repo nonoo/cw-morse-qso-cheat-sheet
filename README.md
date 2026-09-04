@@ -274,6 +274,26 @@ In heavy pileups (especially DXpeditions or rare DX stations), the DX station tr
 * **Match sending speed**: When answering a CQ, send at or slightly below the calling station's speed. If a station sends `QRS`, reduce your speed immediately.
 * **Keep exchanges concise in pileups**: When working DX, POTA, or SOTA activators, keep transmissions minimal (e.g., callsign once, signal report + `TU`) to help keep the frequency flowing.
 
+## Learn to transmit correctly
+
+- Call
+- RST
+- Name
+- QTH
+- Age
+- Year licensed
+- Number of years licensed
+- Power (W)
+- Antenna
+- Key
+- Employer
+- Occupation
+- Family
+- Pets
+- Health
+- Other hobbies and interests
+- Club #s
+
 ## Example QSOs
 
 ### Fast / POTA QSO
